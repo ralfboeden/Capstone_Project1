@@ -1,0 +1,27 @@
+table {
+    border-collapse:inherit;
+    width: 90%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.header-image {
+    margin-right: 50px; 
+    width: 80px; 
+    height: auto; 
+}
+
